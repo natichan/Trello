@@ -3,7 +3,7 @@ body{
     font-family: Helvetica, Arial, Helvetica, sans-serif !important;
 }
 .navbar{
-    height: 32px;
+    height: 40px;
     background: rgba(0,0,0,.35);
     position: relative;
 }
@@ -11,25 +11,39 @@ body{
     width: 4em;
     cursor: pointer;
 }
-.bg-primary{
+.bg{
     background-color: #d92e8c70 !important;
-    height: 30px;
-    font-size: 16px;
+    height: 32px;
+    padding: 0% 1% 0% 1.5%;
+}
+.icon{
+    border: none;
+}
+img{
+    width: 2em;
+}
+.boards{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
 }
 .selector-for-some-widget {
     box-sizing: content-box;
 }
-icon{
-    height: 32px;
-    font-size: 16px;
-    line-height: 32px;
-    width: 32px;
-}
+
 .inputSearchDesign {
     background-color: #d92e8c70 !important;
     width: 16%;
+    margin-left: 0%;
+    height: 32px;
 }
 .inputSearch{
     background: none !important;
     border: none;
+}
+.test{
+    background-color: black;
+}
+.picture{
+    border-radius: 80px;
 }
