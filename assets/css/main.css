@@ -1,27 +1,35 @@
 body{
-    background-color: #1483C2;
+    background-color: #d92e8d;
+    font-family: Helvetica, Arial, Helvetica, sans-serif !important;
 }
-.nav-wrapper{
-    background-color: #0072a7;
+.navbar{
+    height: 32px;
+    background: rgba(0,0,0,.35);
+    position: relative;
 }
 .trello-logo{
-    width: 3em;
+    width: 4em;
+    cursor: pointer;
 }
-.icon{
-    background-color: #609fc1;
-    border-radius: 5px;
-    height: 60px;
-    padding: 0px 10px 0px 10px;
-    margin: 3%; 
+.bg-primary{
+    background-color: #d92e8c70 !important;
+    height: 30px;
+    font-size: 16px;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+icon{
     height: 32px;
+    font-size: 16px;
     line-height: 32px;
     width: 32px;
 }
-.btn-large{
-    background: #609fc1;
-    text-transform: none;
+.inputSearchDesign {
+    background-color: #d92e8c70 !important;
+    width: 16%;
 }
-#search {
-    margin-right: 0px !important;
-    width: 20%
+.inputSearch{
+    background: none !important;
+    border: none;
 }
