@@ -2,43 +2,38 @@ body{
     background-color: #d92e8d;
     font-family: Helvetica, Arial, Helvetica, sans-serif !important;
 }
-.navbar{
+header{
     height: 40px;
     background: rgba(0,0,0,.35);
-    position: relative;
+    padding-left: 0% !important;
+     
 }
 .trello-logo{
-    width: 4em;
+    width: 4.5em;
     cursor: pointer;
 }
 .bg{
     background-color: #d92e8c70 !important;
-    height: 32px;
-    padding: 0% 1% 0% 1.5%;
+    height: 32px;  
+    border: none;
 }
 .icon{
     border: none;
+    width: 32px;
 }
 img{
     width: 2em;
 }
-.boards{
+.textBoards{
     font-size: 14px;
     font-weight: 700;
     line-height: 32px;
 }
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
-
-.inputSearchDesign {
+.design{
     background-color: #d92e8c70 !important;
-    width: 16%;
-    margin-left: 0%;
     height: 32px;
-}
-.inputSearch{
-    background: none !important;
+    width: 200px;
+    text-align: right;
     border: none;
 }
 .test{
@@ -46,4 +41,19 @@ img{
 }
 .picture{
     border-radius: 80px;
+}
+@media (max-width: 877px) {
+    .design{
+        width: 30px;
+        text-align: center;
+    }
+    .textBoards{
+        display: none;
+    }
+    .boards{
+        width: 32px;
+    }
+    .info{
+        display: none;
+    }
 }

@@ -11,27 +11,27 @@
     <title>Trello</title>
   </head>
   <body>    
-    <header>
-      <nav class="navbar">  
-              <div class="bg col-md-1">
-                  <i class="fab fa-trello text-light"></i>
-                  <a><span class="boards text-light">Boards</span></a>
+    <header class="container-fluid">
+      <div class="row d-flex flex-wrap">
+          <div class="col">
+              <div class="d-flex flex-direction-row justify-content-between">
+                <div>
+                  <button class="bg boards text-light"><i class="fab fa-trello text-light">
+                  <span class="textBoards">Boards</span></i></button>         
+                  <button class="design" type="search " aria-label="Search "><i class="fas fa-search text-light"></i></button>
                 </div>
-              <div class="inputSearchDesign">
-                  <input class="inputSearch" type="search " aria-label="Search ">
-                  <i class="fas fa-search text-light"></i>
-                </div>
-            <div class="center col-4 offset-3">
+            <div class="d-flex align-items-center">
                 <img class="trello-logo" src="assets/img/trello-logo-white.png">
             </div>
-            <div class="col-md-2">
-                <button class="bg icon"><img src="assets/img/icon-trello/plus@2x.png" alt="plus"></button>
-                <button class="bg icon"><img src="assets/img/icon-trello/info@2x.png" alt="info"></button>
-                <button class="bg icon"><img src="assets/img/icon-trello/notification@2x.png" alt="notification"></button>
-                <img class="picture" src="assets/img/bradley-cooper-547062-1-402.jpg" alt="user">
+            <div class="">
+                <button class="bg icon"><i class="fas fa-plus text-light"></i></button>
+                <button class="bg info icon"><i class="fas fa-info-circle text-light"></i></button>
+                <button class="bg icon"><i class="far fa-bell text-light"></i></button>
+                <img class="picture ml-1" src="assets/img/bradley-cooper-547062-1-402.jpg" alt="user">
             </div>
-
-        </nav>
+          </div>
+        </div>
+        </div>
     </header>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
