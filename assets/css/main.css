@@ -1,9 +1,10 @@
 body{
     background-color: #d92e8d;
 }
-header{
+nav{
     height: 40px;
     background: rgba(0,0,0,.35);
+    margin-bottom: 0.9%;
 }
 .content{
     padding-right: 0% !important;
@@ -22,10 +23,12 @@ header{
     margin-top: 1%;
 }
 .bg, .design{
+    background: hsla(0,0%,100%,.3);
+}
+.bg, .design, .btnOfNav{
     border-radius: 3px;
     height: 32px;
-    border: none;
-    background: hsla(0,0%,100%,.3);
+    border: none;    
 }
 .design{
     width: 200px;
@@ -39,6 +42,8 @@ header{
 }
 .textBoards{
     font-size: 14.5px;
+}
+.textBoards{
     font-weight: 900;
     font-family: Helvetica, sans-serif !important;
 }
@@ -49,6 +54,58 @@ header{
     border-radius: 80px;
     width: 2em;
 }
+.dividerNav{
+    border-left: 1px solid hsla(0,0%,100%,.2);
+}
+.btnOfNav{
+    background-color: transparent;
+    width: auto;
+    color: white;
+    font-family: Helvetica, sans-serif !important;
+}
+.trelloSecondNav{
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 18px;
+}
+.btnOfNav:hover{
+    background: rgba(0,0,0,.2);
+}
+header{
+    margin-left: 0px;
+}
+.fa-star, .fa-lock{
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 20px;
+}
+.private, .personal{
+    font-size: 14px;
+}
+.btnOfNavIcons{
+    border: none;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+    background: hsla(0,0%,100%,.3);
+    width: 28px;
+    height: 28px;
+    margin-right: 4px;
+    color: white;
+}
+.amountUsersIcons{
+    margin-left: 0%;
+}
+.secondPicture{
+    padding-left: 0%;
+    height: 28px;
+    width: 28px;
+    border-radius: 25em;
+}
+
+
 
 @media (max-width: 640px) {
     .design{
