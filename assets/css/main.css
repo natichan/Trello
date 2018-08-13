@@ -107,12 +107,26 @@ header{
 .showMenu{
     text-decoration: underline;
 }
-.btnOfNav, .btnOfNavIcons{
+.btnOfNav, .btnOfNavIcons, .addList{
     cursor: pointer;
 }
 .no-gutters {
     margin-right: 0 !important;
     padding-right: 0 !important
+}
+.addList{
+    text-align: left;
+    width: 15em;
+    padding: 7px;
+    border: none;
+    background: rgba(0,0,0,.2);
+    color: hsla(0,0%,100%,.7);
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 0.2em;
+    display: block;
 }
 @media (max-width: 640px) {
     .design{
