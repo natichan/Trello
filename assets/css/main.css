@@ -55,7 +55,7 @@ nav{
     width: 2em;
 }
 .dividerNav{
-    border-left: 1px solid hsla(0,0%,100%,.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.473);
 }
 .btnOfNav{
     background-color: transparent;
@@ -110,7 +110,10 @@ header{
 .btnOfNav, .btnOfNavIcons{
     cursor: pointer;
 }
-
+.no-gutters {
+    margin-right: 0 !important;
+    padding-right: 0 !important
+}
 @media (max-width: 640px) {
     .design{
         width: 32px;
