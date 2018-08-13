@@ -68,19 +68,19 @@ nav{
     line-height: 32px;
     font-size: 18px;
 }
-.btnOfNav:hover{
+.btnOfNav:hover, .btnOfNavIcons:hover{
     background: rgba(0,0,0,.2);
 }
 header{
     margin-left: 0px;
 }
-.fa-star, .fa-lock{
+.fa-star, .fa-lock, .fa-ellipsis-h{
     height: 20px;
     font-size: 12px;
     line-height: 20px;
     width: 20px;
 }
-.private, .personal{
+.private, .personal, .showMenu{
     font-size: 14px;
 }
 .btnOfNavIcons{
@@ -96,13 +96,19 @@ header{
     color: white;
 }
 .amountUsersIcons{
-    margin-left: 0%;
+    margin-left: -2px;
 }
 .secondPicture{
-    padding-left: 0%;
+    margin-right: -4px;
     height: 28px;
     width: 28px;
     border-radius: 25em;
+}
+.showMenu{
+    text-decoration: underline;
+}
+.btnOfNav, .btnOfNavIcons, .secondPicture{
+    cursor: pointer;
 }
 
 
