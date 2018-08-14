@@ -2,7 +2,6 @@
     font-family: Helvetica, sans-serif;
     font-size: 14px;
 }
-
 .styleButtonList{
     background-color: #2ca63d;
     color: white;
@@ -53,4 +52,7 @@ input{
     width: 18em;
     text-align: left;
     color: #8c8c8c;
+}
+.secondBtnList{
+    float: right;
 }

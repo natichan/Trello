@@ -1,8 +1,8 @@
+const addAList = document.getElementsByClassName('addList')[0];
 const containerList = document.getElementsByClassName('list')[0];
 const containerTitle = document.getElementsByClassName('textTitle')[0];
 
 function hideAndShowContent() {
-    const addAList = document.getElementById('addListForInput')
     addAList.style.display = 'none';
     containerList.style.display = 'block';
     createInputForTitle();
@@ -48,12 +48,22 @@ function createInputForTitle() {
 
     iconAdd.setAttribute('class', 'iconAddCard fas fa-plus')
     addACard.setAttribute('class', 'addCardLink')
-    titleNamePar.setAttribute('class', 'title'); 
+    titleNamePar.setAttribute('class', 'title');
+    addACard.onclick = function(){};
     
     containerTitle.appendChild(titleNamePar);
     titleNamePar.appendChild(beATextTitle);
     addACard.appendChild(iconAdd);
     addACard.appendChild(textAdd);
     containerTitle.appendChild(addACard);
+    function addNewListButton(){
+        const secondButtonList = document.createElement('button');
+        const iconList = document.createElement('i');
     
+        iconList.setAttribute('class', 'fas fa-plus')
+        secondButtonList.setAttribute('class', 'addList secondBtnList');
+        secondButtonList.appendChild(iconList);
+    }
+    addNewListButton()
 }
+
