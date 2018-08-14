@@ -68,7 +68,7 @@ nav{
     line-height: 32px;
     font-size: 18px;
 }
-.btnOfNav:hover, .btnOfNavIcons:hover{
+.btnOfNav:hover, .btnOfNavIcons:hover, .addCardLink:hover{
     background: rgba(0,0,0,.2);
 }
 header{

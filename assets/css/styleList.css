@@ -1,22 +1,23 @@
+.styleButtonList, .list, .textTitle, .addCardLink{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 .styleButtonList{
     background-color: #2ca63d;
     color: white;
     display: inline-block;
     font-weight: 700;
-    line-height: 20px;
     margin: 8px 4px 0 0;
     padding: 6px 16px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
     font-size: 14px;
 }
-.list{
+.list, .textTitle{
     background: #e1e3e5;
     width: 20em;
     padding: 7px;
     border: none;
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     border-radius: 0.2em;
@@ -41,12 +42,15 @@ input{
     color: black;
     opacity: 0.8;
 }
-.styleButtonList, .fa-times{
+.styleButtonList, .fa-times, .addCardLink{
     cursor: pointer;
 }
 .styleButtonList, .buttonDeleteStyle{
     border: none;
 }
-.styleTitle{
-    background: #e1e3e5;
+.addCardLink{
+    font-weight: 400;
+    width: 18em;
+    text-align: left;
+    color: #8c8c8c;
 }
