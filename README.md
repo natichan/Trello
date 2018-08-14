@@ -1,7 +1,7 @@
 ## TRELLO
 
 Reto de Laboratoria de replicar el tablero de Trello.
-[Para ver avance Trello]('https://natichan.github.io/Trello/')
+[Para ver avance Trello](https://natichan.github.io/Trello/);
 
 # EXPLICACIÓN RETO TRELLO 
 En este reto, vamos a replicar el tablero de Trello, para ello vamos a seguir un flujo de versiones que te guiarán en dónde enfocarte desde un inicio.
