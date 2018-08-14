@@ -1,0 +1,17 @@
+.styleButtonList{
+    background-color: #2ca63d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 8px 4px 0 0;
+    padding: 6px 16px;
+    text-align: center;
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+.list{
+    background-color: white,
+}
