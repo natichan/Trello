@@ -47,3 +47,6 @@ input{
 .styleButtonList, .buttonDeleteStyle{
     border: none;
 }
+.styleTitle{
+    background: #e1e3e5;
+}
