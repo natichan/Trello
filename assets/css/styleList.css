@@ -13,5 +13,19 @@
     font-size: 14px;
 }
 .list{
-    background-color: white,
+    background: #e1e3e5;
+    width: 20em;
+    padding: 7px;
+    border: none;
+    color: hsla(0,0%,100%,.7);
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 0.2em;
+}
+input{
+    width: 19em;
+    height: 32px;
+    margin: 4px 0 0;
 }
