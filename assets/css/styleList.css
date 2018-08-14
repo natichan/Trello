@@ -1,15 +1,13 @@
 .styleButtonList{
     background-color: #2ca63d;
     color: white;
-    border: none;
-    cursor: pointer;
     display: inline-block;
     font-weight: 700;
     line-height: 20px;
     margin: 8px 4px 0 0;
     padding: 6px 16px;
     text-align: center;
-    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 14px;
 }
 .list{
@@ -17,7 +15,6 @@
     width: 20em;
     padding: 7px;
     border: none;
-    color: hsla(0,0%,100%,.7);
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -28,4 +25,25 @@ input{
     width: 19em;
     height: 32px;
     margin: 4px 0 0;
+    margin-top: 0%
+}
+.buttonDeleteStyle{
+    background: none;
+}
+.fa-times{
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    width: 32px;
+    color: #999;
+}
+.fa-times:hover{
+    color: black;
+    opacity: 0.8;
+}
+.styleButtonList, .fa-times{
+    cursor: pointer;
+}
+.styleButtonList, .buttonDeleteStyle{
+    border: none;
 }
